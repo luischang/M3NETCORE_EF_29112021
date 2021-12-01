@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3NETCORE_EF.CodeFirst", "M3NETCORE_EF.CodeFirst\M3NETCORE_EF.CodeFirst.csproj", "{A9D3AFF6-F1AF-4FC9-B141-04B2AC15960A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M3NETCORE_EF.CodeFirst", "M3NETCORE_EF.CodeFirst\M3NETCORE_EF.CodeFirst.csproj", "{A9D3AFF6-F1AF-4FC9-B141-04B2AC15960A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3NETCORE_EF.DatabaseFirst", "M3NETCORE_EF.DatabaseFirst\M3NETCORE_EF.DatabaseFirst.csproj", "{186C120B-2549-489A-AD87-5263EAB824CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M3NETCORE_EF.DatabaseFirst", "M3NETCORE_EF.DatabaseFirst\M3NETCORE_EF.DatabaseFirst.csproj", "{186C120B-2549-489A-AD87-5263EAB824CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3NETCORE_MVCEF.CodeFirst", "M3NETCORE_MVCEF.CodeFirst\M3NETCORE_MVCEF.CodeFirst.csproj", "{6D2F3F6A-5590-4E00-AB7F-A2A016CFC0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M3NETCORE_MVCEF.CodeFirst", "M3NETCORE_MVCEF.CodeFirst\M3NETCORE_MVCEF.CodeFirst.csproj", "{6D2F3F6A-5590-4E00-AB7F-A2A016CFC0CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3NETCORE_MVCEF.DatabaseFirst", "M3NETCORE_MVCEF.DatabaseFirst\M3NETCORE_MVCEF.DatabaseFirst.csproj", "{D6207842-BAF6-4544-BDBC-435CFAB213AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6D2F3F6A-5590-4E00-AB7F-A2A016CFC0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D2F3F6A-5590-4E00-AB7F-A2A016CFC0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D2F3F6A-5590-4E00-AB7F-A2A016CFC0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6207842-BAF6-4544-BDBC-435CFAB213AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6207842-BAF6-4544-BDBC-435CFAB213AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6207842-BAF6-4544-BDBC-435CFAB213AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6207842-BAF6-4544-BDBC-435CFAB213AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
